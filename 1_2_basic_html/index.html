@@ -1,19 +1,78 @@
-
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <title>Interactive Data Visualization Tutorial</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>Hello World!</h1>
-  <h3>Section 1 | Tutorial 2 | Basic HTML</h3>
-  <table>
-    <!-- Add your table data here -->
-  </table>
-  <svg>
-    <!-- Add your rectangles in here -->
-  </svg>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization Tutorial</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h3>Section 1 | Tutorial 2 | Basic HTML</h3>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Table Reference Here</a>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Fall 2023 Data 73200</th>
+        </tr>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Micaiah</td>
+        <td>Davis</td>
+      </tr>
+      <tr>
+        <td>Thomas</td>
+        <td>Fagin</td>
+      </tr>
+      <tr>
+        <td>Colin</td>
+        <td>Geraghty</td>
+      </tr>
+      <tr>
+        <td>Marilyn</td>
+        <td>Moy</td>
+      </tr>
+      <tr>
+        <td>Randip</td>
+        <td>Parhar</td>
+      </tr>
+      <tr>
+        <td>Monica</td>
+        <td>Rocha</td>
+      </tr>
+      <tr>
+        <td>Henry</td>
+        <td>Shen</td>
+      </tr>
+      <tr>
+        <td>Akeem</td>
+        <td>Shepherd</td>
+      </tr>
+      <tr>
+        <td>Matthew</td>
+        <td>Stanton</td>
+      </tr>
+      <tr>
+        <td>Hyojin</td>
+        <td>Yoo</td>
+      </tr>
+    </table>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG Reference Here</a>
+    <svg style="width:600px; height:300px">
+      <defs>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="5%"  stop-color="LightSteelBlue" />
+          <stop offset="30%"  stop-color="salmon" />
+          <stop offset="95%" stop-color="gold" />
+        </linearGradient>
+      </defs>
+      <circle fill="LightCoral" r="50" />
+      <circle fill="Thistle" cx="150" r="50" />
+      <circle fill="PaleGreen" cx="150" cy="150" r="50" />
+      <circle fill="url('#gradient')" cx="300" cy="150" r="50" />
+    </svg>
+  </body>
 </html>
