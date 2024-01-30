@@ -18,3 +18,23 @@ h3 {
 p {
   font-size: 1em;
 }
+
+th {
+  color: red;
+}
+
+#teacher {
+  color: blue;
+}
+
+.firstNameM {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+svg {
+  border: 1px solid black;
+}
+
+
+
