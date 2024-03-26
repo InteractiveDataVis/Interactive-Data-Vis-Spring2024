@@ -18,11 +18,22 @@ p {
   font-size: 1em;
 }
 
-#tooltip {
+/* #tooltip {
   display: block;
   height: 50px;
-}
+} */
 
 path.state {
   stroke: black;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#hover-content {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
 }
